@@ -15,6 +15,10 @@
 		268483421C06B30400247EBB /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268483411C06B30400247EBB /* FoodTrackerTests.swift */; };
 		2684834D1C06B30400247EBB /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684834C1C06B30400247EBB /* FoodTrackerUITests.swift */; };
 		2684835B1C080AA300247EBB /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684835A1C080AA300247EBB /* RatingControl.swift */; };
+		2684835D1C09661A00247EBB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684835C1C09661A00247EBB /* Meal.swift */; };
+		2684835E1C09661A00247EBB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2684835C1C09661A00247EBB /* Meal.swift */; };
+		268483601C097B3A00247EBB /* testPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2684835F1C097B3A00247EBB /* testPhoto.jpg */; };
+		268483611C097B3A00247EBB /* testPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2684835F1C097B3A00247EBB /* testPhoto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		2684834C1C06B30400247EBB /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		2684834E1C06B30400247EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2684835A1C080AA300247EBB /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		2684835C1C09661A00247EBB /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2684835F1C097B3A00247EBB /* testPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testPhoto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 				268483301C06B30400247EBB /* Main.storyboard */,
 				2684835A1C080AA300247EBB /* RatingControl.swift */,
 				268483331C06B30400247EBB /* Assets.xcassets */,
+				2684835C1C09661A00247EBB /* Meal.swift */,
 				268483351C06B30400247EBB /* LaunchScreen.storyboard */,
 				268483381C06B30400247EBB /* Info.plist */,
 			);
@@ -113,6 +120,7 @@
 		268483401C06B30400247EBB /* FoodTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
+				2684835F1C097B3A00247EBB /* testPhoto.jpg */,
 				268483411C06B30400247EBB /* FoodTrackerTests.swift */,
 				268483431C06B30400247EBB /* Info.plist */,
 			);
@@ -234,6 +242,7 @@
 			files = (
 				268483371C06B30400247EBB /* LaunchScreen.storyboard in Resources */,
 				268483341C06B30400247EBB /* Assets.xcassets in Resources */,
+				268483601C097B3A00247EBB /* testPhoto.jpg in Resources */,
 				268483321C06B30400247EBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268483611C097B3A00247EBB /* testPhoto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2684835D1C09661A00247EBB /* Meal.swift in Sources */,
 				2684832F1C06B30400247EBB /* ViewController.swift in Sources */,
 				2684835B1C080AA300247EBB /* RatingControl.swift in Sources */,
 				2684832D1C06B30400247EBB /* AppDelegate.swift in Sources */,
@@ -269,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2684835E1C09661A00247EBB /* Meal.swift in Sources */,
 				268483421C06B30400247EBB /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
