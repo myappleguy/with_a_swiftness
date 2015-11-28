@@ -17,6 +17,7 @@ class ViewController: UIViewController,
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
 
     // MARK: ViewController Callbacks
     override func viewDidLoad() {
@@ -57,10 +58,7 @@ class ViewController: UIViewController,
         imagePickerController.delegate = self
         presentViewController(imagePickerController, animated: true, completion: nil)
     }
-    
-    @IBAction func setDefaultLabelText(sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
+
 
 }
 

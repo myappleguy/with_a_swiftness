@@ -15,6 +15,8 @@ class RatingControl: UIView {
             setNeedsLayout()
         }
     }
+    let spacing = 5
+    let stars = 5
     var ratingButtons = [UIButton]()
     
     // MARK: Initialization
@@ -24,7 +26,7 @@ class RatingControl: UIView {
         let filledStarImage = UIImage(named: "filledStar")
         let emptyStarImage = UIImage(named: "emptyStar")
         
-        for _ in 0..<5 {
+        for _ in 0..<stars {
             let button = UIButton()
             button.setImage(emptyStarImage, forState: .Normal)
             button.setImage(filledStarImage, forState: .Selected)
@@ -42,7 +44,7 @@ class RatingControl: UIView {
         var buttonFrame = CGRect(x: 0, y: 0, width: buttonSize, height: buttonSize)
         
         for (index, button) in ratingButtons.enumerate() {
-            buttonFrame.origin.x = CGFloat(index * (buttonSize + 5))
+            buttonFrame.origin.x = CGFloat(index * (buttonSize + spacing))
             button.frame = buttonFrame
         }
         
@@ -51,10 +53,7 @@ class RatingControl: UIView {
     
     override func intrinsicContentSize() -> CGSize {
         let buttonSize = Int(frame.size.height)
-        let spacing = 5
-        let stars = 5
         let width = (buttonSize + spacing) * stars
-        
         return CGSize(width: width, height: buttonSize)
     }
 
